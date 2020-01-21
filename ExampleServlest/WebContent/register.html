@@ -1,0 +1,59 @@
+<!doctype html>  
+   <body>  
+      <form action="servlet/Register" method="post">  
+         <fieldset style="width:100%; background-color:#ccffeb">
+            <h2 align="center">Registration form</h2><hr>
+            <table>
+               <tr>
+                  <td>Name</td>
+                  <td><input type="text" name="Name" required></td>
+               </tr>  
+               <tr>
+                  <td>Address</td>
+                  <td><textarea rows=4 cols=20 name="Address" required></textarea></td>
+               </tr>  
+                <tr>
+                  <td>State</td>
+                  <td><select name="state" style="width:130px">  
+                     <option>Select a state</option>  
+                     <option>AP</option>  
+                     <option>TS</option>  
+                     <option>KA</option>  
+                     <option>TN</option></select>
+                  </td>
+               </tr>
+                 <tr>
+                  <td>Phonenumber</td>
+                  <td><input type="text" name="pnumber" size=10 required></td>
+               </tr> 
+               <tr>
+                  <td>Email Id</td>
+                  <td><input type="text" name="email" required> </td>
+               </tr>  
+               <td>Contact</td>
+                  <td> <input type="radio" name="contact"/>E-mail
+                               <input type="radio" name="contact"/>  Phone  
+                                <input type="radio" name="contact" /> Portal mail
+                 </td></tr>
+              
+               <tr>
+                  <td>Date of Visit</td>
+                  <td><input type="date" name="dov" required/></td>
+               </tr>  
+               <tr>
+               <tr>
+                  <td>describe</td>
+                  <td><textarea rows=4 cols=20 name="describe" required></textarea></td>
+               </tr>  
+                  
+              
+               <tr>
+                  
+                  <td><input type="submit" value="submit"/></td>
+                  <td><input type="submit" value="reset"/></td>
+               </tr>
+            </table>
+         </fieldset>  
+      </form>  
+   </body>  
+</html>
